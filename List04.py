@@ -1,4 +1,5 @@
 def main(numbers,i):
+    del numbers[i]
     """
     You are given a list of numbers. i Delete and return the number in the index.
     Args:
@@ -7,4 +8,4 @@ def main(numbers,i):
     Returns:
         list: return answer
     """
-    return
+    return numbers
