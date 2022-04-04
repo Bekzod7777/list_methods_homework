@@ -1,5 +1,5 @@
 def main(numbers,i):
-    del numbers[i]
+    numbers.pop(i)
     """
     You are given a list of numbers. i Delete and return the number in the index.
     Args:
