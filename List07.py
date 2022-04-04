@@ -1,4 +1,8 @@
+from re import A
+
+
 def main(list01):
+    a=list01.count(0)
     """
     A list of zeros and ones is given. Find how many zeros are involved and return.
     Args:
@@ -6,4 +10,4 @@ def main(list01):
     Returns:
         int: return answer
     """
-    return
+    return a
