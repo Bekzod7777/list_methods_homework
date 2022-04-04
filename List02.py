@@ -1,4 +1,5 @@
 def main(fruits,x,i):
+    fruits.insert(i,x)
     """
     You will be given a list of fruits. Add the x fruit to the i index and return it.
     Args:
@@ -8,4 +9,4 @@ def main(fruits,x,i):
     Returns:
         list: return answer
     """
-    return
+    return fruits
